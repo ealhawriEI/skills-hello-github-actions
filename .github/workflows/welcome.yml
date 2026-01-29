@@ -1,9 +1,12 @@
 name: Post welcome comment
+
 on:
-  pull_request:
+  pull_request_target:
     types: [opened]
+
 permissions:
   pull-requests: write
+
 jobs:
   welcome:
     name: Post welcome comment
