@@ -4,4 +4,9 @@ on:
   types: [opened]
 permissions: 
  pull-requests: write
-    
+jobs:
+  welcome:
+   name: "post welcome workflow"
+   runs-on: ubuntu-latest
+
+  
